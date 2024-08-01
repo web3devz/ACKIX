@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="LHMachine.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../src/TVM/TVM.fsproj" />
+    <ProjectReference Include="../../src/LHTypes/LHTypes.fsproj" />
+    <ProjectReference Include="../../src/LHTypeInfer/LHTypeInfer.fsproj" />
+    <ProjectReference Include="../../src/LHExpr/LHExpr.fsproj" />
+  </ItemGroup>
+
+</Project>

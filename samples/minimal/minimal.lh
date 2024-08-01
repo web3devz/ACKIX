@@ -1,0 +1,8 @@
+(* Minimal correct program *)
+
+contract minimal
+
+type State = unit
+type ActorMessage = unit
+
+let main (msg:ActorMessage) (st:State) = () ;;

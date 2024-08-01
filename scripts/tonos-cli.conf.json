@@ -1,0 +1,15 @@
+{
+  "url":"n01.fld.dapp.tonlabs.io",
+  "wc":0,
+  "addr":"",
+  "wallet":"",
+  "abi_path":null,
+  "keys_path":"/home/web3devz/keys.json",
+  "retries":1,
+  "timeout":60000,
+  "is_json":false,
+  "depool_fee":0.5,
+  "lifetime":60,
+  "no_answer":true,
+  "use_delimiters":false
+}
